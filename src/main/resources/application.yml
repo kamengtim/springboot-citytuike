@@ -1,0 +1,13 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    name: paper
+    url: jdbc:mysql://112.74.76.128/paper
+    username: paper
+    password: paper!123
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+  type-aliases-package: com.citytk.pojo
